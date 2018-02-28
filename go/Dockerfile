@@ -1,6 +1,5 @@
 FROM cloud.canister.io:5000/victorspringer/docker-runner-base
 
-# gcc for cgo
 RUN apt-get update && apt-get install -y --no-install-recommends \
 	g++ \
 	gcc \
